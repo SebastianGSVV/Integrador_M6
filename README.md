@@ -12,7 +12,7 @@ El presente proyecto busca conocer las características más importantes que tie
 
 ## **Datos disponibles**
 
-Para cumpli con el objetivo de clasificar a los pacientes en si serán hospitalizados o no, se proporcionó una base de datos con 570 registros y 20 variables para analizar. Los datos se ha recopilado teniendo en cuenta: `Antecedentes del paciente`, `Morbilidad asociada al paciente` y `Antecedentes relacionados con la toma de la biopsia`y `Complicaciones infecciosas`. El detalle de cada variable y ortos datos importantes para el entendimiento del problema se encuentra en del [Diccionario de Datos](Diccionario_Datos.mb).
+Para cumpli con el objetivo de clasificar a los pacientes en si serán hospitalizados o no, se proporcionó una base de datos con 570 registros y 20 variables para analizar. Los datos se ha recopilado teniendo en cuenta: `Antecedentes del paciente`, `Morbilidad asociada al paciente` y `Antecedentes relacionados con la toma de la biopsia`y `Complicaciones infecciosas`. El detalle de cada variable y ortos datos importantes para el entendimiento del problema se encuentra en del Diccionario_Datos.mb.
 
 ## **Procesamiento de los datos**
 
