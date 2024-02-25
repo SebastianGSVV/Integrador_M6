@@ -166,7 +166,7 @@ def heatmap_categoricas(df):
     # Iterar a través de cada columna en el DataFrame original
     for column in df.columns:
         # Verificar si la columna es de tipo 'object'
-        if df[column].dtype == 'object':
+        if df[column].dtype == 'object' or df[column].dtype == 'category':
             # Obtener las categorías únicas y sus recuentos
             category_counts = df[column].value_counts(normalize=True)
             
