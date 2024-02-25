@@ -18,8 +18,6 @@ Para cumpli con el objetivo de clasificar a los pacientes en si serán hospitali
 
 Mediante un proceso de ETL se consumieron los datos provistos y se los convitió en un Dataframe donde se realizó una exploración y limpieza inicial, transformación de los datos y carga del conjunto limpio. Luego, mediante un proceso de EDA, se exploró cada una de las variables con el objetivo de entender cada una de ellas y buscar la relación o no con la variable objetivo. A lo largo de la exploración se fueron descartando algunas variables, para finalmente preparar los datos en un formato compatible para la modelación del problema.
 
-En este repositorio se puede encontrar el proceso completo de [ETL](01_ETL.ipynb) y [EDA](02_EDA.ipynb).
-
 ## **Modelo de clasificación**
 
 Una vez preparados los datos, se procede a buscar un modelo de Machine Learning de clasificación, que permita clasificar a un paciente como *hospitalizado* o *no hospitalizado*, teniendo en cuenta la información referente a sus antecedentes como paciente, las morbilidad asociadas, los antecedentes relacionados con la toma de la biopsia y complicaciones infecciosas.
@@ -27,8 +25,6 @@ Una vez preparados los datos, se procede a buscar un modelo de Machine Learning 
 Para ello, se plantean dos estrategias para esa busqueda. Por un lado, utilizar las 12 columnas de datos y, en una segunda estrategia, se considera la reducción de dimensionalidad. Para ambas estrategias se utilizan los algoritmos de Árbol de Decisión, K-Vecinos Cernanos y Máquina de Soporte de Vectores.
 
 Para la elección de los mejores hiperparámetros de cada uno de ellos, se utiliza una búsqueda exaustiva mediante la técnica de GridSearch. 
-
-En la notebook [03_modelo](03_modelo.ipynb) se encuentra detallado todo el análisis realizado para llegar al mejor modelo.
 
 ## **Conclusiones**
 
